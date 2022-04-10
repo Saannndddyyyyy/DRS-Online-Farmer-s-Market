@@ -1,0 +1,159 @@
+body, html {
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  background-color: rgba(0,0,0,0.8);
+  font-weight: 300;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0;
+}
+
+h2,h3 {
+	margin: 0 0 20px 0;
+	font-weight: 500;
+	font-size: 34px;
+	color: #333;
+	text-transform: uppercase;
+}
+a {
+	color: #8eb640;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #222;
+}
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #8eb640;
+	margin: 0;
+	margin-bottom: 40px;
+	border: 0;
+}
+.section-title {
+	margin-bottom: 70px;
+}
+.section-title .overlay {
+	padding: 80px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.section-title p {
+	font-size: 22px;
+	color: rgba(255,255,255,0.8);
+}
+.section-title hr {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+#restaurant-menu {
+	padding: 0px;
+}
+#restaurant-menu .section-title {
+	background: #444 url(jmenu.jfif) center center no-repeat fixed;
+	background-size: cover;
+}
+#restaurant-menu .section-title h2{
+	color: #fff;
+}
+#restaurant-menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#restaurant-menu .menu-item {
+	margin: 35px 0;
+	font-size: 18px;
+}
+#restaurant-menu .menu-item-name {
+	font-weight: 600;
+	font-size: 17px;
+	color: #555;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+#restaurant-menu .menu-item-description {
+	font-style: italic;
+	font-size: 15px;
+}
+#restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 600;
+	color: #555;
+	margin-top: -26px;
+}
+
+#footer
+{ margin-left: auto;
+  margin-right: auto;
+}
+
+#footer
+{ width: 916px;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 90%;
+  height: 28px;
+  padding: 20px 0 5px 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+   color: #EEF3CD;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer p
+{ padding: 0;}
+
+#footer a, #footer a:hover
+{ color: #EEF3CD;
+  text-decoration: none;}
+
+#footer a:hover
+{ text-decoration: underline;}
+
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  padding: 10px 30px;
+  margin: 0px 15px 0 15px;
+  letter-spacing: 0.5px;
+  background-color: rgba(66, 63, 52,0.7);
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+a, a:hover
+{ border-bottom: 1px dotted;
+  color: #635B53;
+  text-decoration: none;}
+
+a:hover
+{ border-bottom: 1px solid;
+  color: #00C5EE;}
